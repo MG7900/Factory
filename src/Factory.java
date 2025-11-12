@@ -23,6 +23,27 @@ public class Factory {
         factoryInfo();
         //todo: change the year founded to be a different value
         //todo: call factoryInfo() afterwards
+
+        //type varName = value
+        //object of type airplane
+        //constructor: is a method, has the same name as class, no void and just public
+        Airplane plane1 = new Airplane();   //constructing a new airplane, the order of code matters
+        plane1.name = "keff";
+        plane1.model = "Paper Plane";
+        plane1.capacity = 64;
+        plane1.length = 128;
+        plane1.isDoubleDecker = false;
+        System.out.println("Name: " + plane1.name + " Model: " + plane1.model + " Length: " + plane1.length + " Capacity: " + plane1.capacity + " Double Decker status: " + plane1.isDoubleDecker);
+        //todo: give all of plane1's instance variables values
+
+        Airplane plane2 = new Airplane();
+        System.out.println(plane2.capacity);
+
+        //hw: make 2 more airplane objects
+        //for one of the objects, change all the instance variables
+        //for both objects print all the instance variables
+        //uploading changes to github
+
     }
 
     public void factoryInfo(){
