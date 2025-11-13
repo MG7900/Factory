@@ -11,6 +11,7 @@ public class Airplane {
         capacity = 250;
         name = "Jacob6";
         isDoubleDecker = false;
+        model = "lufthansa";
         length = 157;
 
     }
