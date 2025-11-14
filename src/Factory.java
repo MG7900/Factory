@@ -55,6 +55,12 @@ public class Factory {
         //for both objects print all the instance variables
         //uploading changes to github
 
+        //Use the method with the pCapacity parameter
+        Airplane plane5 = new Airplane(232);
+        plane5.printInfo();
+
+
+
     }
 
     public void factoryInfo(){
